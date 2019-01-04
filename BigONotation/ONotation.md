@@ -7,14 +7,14 @@
 ### Simplify
 
 1. Constants dont matter
-  1. O(2n) = O(n)
-  2. O(500) = O(1)
-  3. O(13n^2) = O(n^2)
+  - O(2n) = O(n)
+  - O(500) = O(1)
+  - O(13n^2) = O(n^2)
 
 2. Smaller Terms Don't Matter
-  1. O(n + 10) = O(n)
-  2. O(1000n + 50) = O(n)
-  3. O(n^2 + 5n + 8) = O(n^2)
+  - O(n + 10) = O(n)
+  - O(1000n + 50) = O(n)
+  - O(n^2 + 5n + 8) = O(n^2)
 
 ### Shorthands
 
@@ -24,6 +24,7 @@
 4. In a loop, the complexity is the lenght of the loop times the complexity of what ever is in the loop
 
 ### Space Complexity 
+#### The amout of memory a function uses
 
 1. Most privitives(bool, num, undef, null) are constant space
 2. Strings require O(n) space where n is the length of the string
